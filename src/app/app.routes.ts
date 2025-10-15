@@ -23,7 +23,12 @@ export const routes: Routes = [
     {
         path: 'pessoas/incluir',
         component: PessoaFormComponent,
-        title: 'Cadastrar'
+        title: 'Cadastro de pessoas'
+    },
+    {
+        path: 'pessoas/alterar/:id',
+        component: PessoaFormComponent,
+        title: 'Pessoas - Alterar',
     }
 
 ];
